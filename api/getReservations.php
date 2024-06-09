@@ -30,6 +30,7 @@ $builderCount = $db->find("reservations")
 $fields = [
     "ID" => "reservations.ID",
     "Name" => "reservations.Name",
+    "SurName" => "reservations.SurName",
     "Phone" => "reservations.Phone",
     "CheckIn" => "reservations.From",
     "CheckOut" => "reservations.To",
@@ -69,6 +70,7 @@ $builder->limit($pagination->getLimit());
 $rooms = $builder->select([
     "reservations.ID as RID",
     "reservations.Name",
+    "reservations.SurName",
     "reservations.Phone",
     "reservations.From",
     "reservations.To",
@@ -93,6 +95,7 @@ foreach ($rooms as $room) {
         "cell" => [
             $room["RID"],
             $room["Name"],
+            $room["SurName"],
             $room["Phone"],
             $room["From"],
             $room["To"],

@@ -113,6 +113,7 @@ $page->Header(["plugin-multipleImagePreview", "plugin-styleSelect", "plugin-phot
                 colModel: [
                     { label: 'ID', name: 'ID', key: true, width: 60 },
                     { label: 'Ім\'я', name: 'Name', width: 150 },
+                    { label: 'Прізвище', name: 'SurName', width: 150 },
                     { label: 'Телефон', name: 'Phone', width: 150 },
                     { label: 'Дата заїзду', name: 'CheckIn', width: 150 },
                     { label: 'Дата виїзду', name: 'CheckOut', width: 150 },
