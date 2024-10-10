@@ -20,7 +20,7 @@ Taiga provides a user-friendly interface for both users and administrators:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/taiga.git
+    git clone https://github.com/MrPupir/taiga.git
     ```
 
 2. Navigate to the project directory:
